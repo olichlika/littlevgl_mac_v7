@@ -53,8 +53,10 @@ void keyboard_init(void)
 bool keyboard_read(lv_indev_drv_t * indev_drv, lv_indev_data_t * data)
 {
     (void) indev_drv;      /*Unused*/
+    //printf("%d\r\n", last_key);
     data->state = state;
     data->key = keycode_to_ascii(last_key);
+    //printf("key value:%d \r\n", data->key);
 
     return false;
 }
@@ -68,13 +70,17 @@ void keyboard_handler(SDL_Event * event)
     /* We only care about SDL_KEYDOWN and SDL_KEYUP events */
     switch(event->type) {
         case SDL_KEYDOWN:                       /*Button press*/
+            //printf("press\r\n");
             last_key = event->key.keysym.sym;   /*Save the pressed key*/
             state = LV_INDEV_STATE_PR;          /*Save the key is pressed now*/
             break;
         case SDL_KEYUP:                         /*Button release*/
+            last_key = 0;
+            //printf("release\r\n");
             state = LV_INDEV_STATE_REL;         /*Save the key is released but keep the last key*/
             break;
         default:
+            //last_key = 0;
             break;
 
     }

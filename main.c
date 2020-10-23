@@ -11,6 +11,7 @@
 #include <sys/time.h>
 
 #include <SDL2/SDL.h>
+#include <lv_examples/src/lv_demo_widgets/lv_demo_widgets.h>
 
 #define DISP_BUF_SIZE (272 * LV_HOR_RES_MAX)
 
@@ -45,17 +46,36 @@ int main(void) {
     indev_drv.read_cb = mouse_read;         /*This function will be called periodically (by the library) to get the mouse position and state*/
     lv_indev_t * mouse_indev = lv_indev_drv_register(&indev_drv);
 
+    //键盘输入
+    keyboard_init();
+    lv_indev_drv_t sdl_kb_drv;
+    lv_indev_drv_init(&sdl_kb_drv);
+    sdl_kb_drv.type = LV_INDEV_TYPE_KEYPAD;
+    //sdl_kb_drv.read_cb = keyboard_read; //每个gui时间片轮询都会调用此回调函数
+    lv_indev_t * sdl_kb_indev = lv_indev_drv_register(&sdl_kb_drv);
+    lv_indev_data_t kbDate;
+
     /*Create a Demo*/
-    //label_test();
-    lv_demo_widgets();
+    label_test();
+    //lv_demo_widgets();
 
     SDL_CreateThread(tick_thread, "tick", NULL);
 
     //lv_task_create(memory_monitor, 3000, LV_TASK_PRIO_MID, NULL);
 
     while(1) {
+
+        keyboard_read(&sdl_kb_drv, &kbDate);
+
+
+        if (kbDate.key != 0) {
+            //1-49 2-50 ...
+            printf("%d\r\n", kbDate.key);
+        }
+
         lv_task_handler();
-        usleep(5 * 1000);
+        //usleep(5 * 1000);
+        usleep(200 * 1000);
 
 #ifdef SDL_APPLE
         SDL_Event event;
@@ -63,6 +83,9 @@ int main(void) {
         while(SDL_PollEvent(&event)) {
 #if USE_MOUSE != 0
             mouse_handler(&event);
+#endif
+#if USE_KEYBOARD
+            keyboard_handler(&event);
 #endif
         }
 #endif        
@@ -82,14 +105,14 @@ static int tick_thread(void * data) {
     return 0;
 }
 
-static void memory_monitor(lv_task_t * param) {
-    (void) param; /*Unused*/
-
-    lv_mem_monitor_t mon;
-    lv_mem_monitor(&mon);
-    printf("used: %6d (%3d %%), frag: %3d %%, biggest free: %6d\n", (int)mon.total_size - mon.free_size,
-            mon.used_pct,
-            mon.frag_pct,
-            (int)mon.free_biggest_size);
-
-}
+//static void memory_monitor(lv_task_t * param) {
+//    (void) param; /*Unused*/
+//
+//    lv_mem_monitor_t mon;
+//    lv_mem_monitor(&mon);
+//    printf("used: %6d (%3d %%), frag: %3d %%, biggest free: %6d\n", (int)mon.total_size - mon.free_size,
+//            mon.used_pct,
+//            mon.frag_pct,
+//            (int)mon.free_biggest_size);
+//
+//}

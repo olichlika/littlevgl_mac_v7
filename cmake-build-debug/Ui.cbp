@@ -1,0 +1,1069 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Ui"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/kingcrum/littlevgl_mac_v7/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/opt/local/bin/gmake -j8 -f &quot;/Users/kingcrum/littlevgl_mac_v7/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/opt/local/bin/gmake -j8 -f &quot;/Users/kingcrum/littlevgl_mac_v7/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/local/bin/gmake -j8 -f &quot;/Users/kingcrum/littlevgl_mac_v7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/local/bin/gmake -j8 -f &quot;/Users/kingcrum/littlevgl_mac_v7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/kingcrum/littlevgl_mac_v7/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/opt/local/bin/gmake -j8 -f &quot;/Users/kingcrum/littlevgl_mac_v7/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/opt/local/bin/gmake -j8 -f &quot;/Users/kingcrum/littlevgl_mac_v7/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/local/bin/gmake -j8 -f &quot;/Users/kingcrum/littlevgl_mac_v7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/local/bin/gmake -j8 -f &quot;/Users/kingcrum/littlevgl_mac_v7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/kingcrum/littlevgl_mac_v7/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/opt/local/bin/gmake -j8 -f &quot;/Users/kingcrum/littlevgl_mac_v7/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/opt/local/bin/gmake -j8 -f &quot;/Users/kingcrum/littlevgl_mac_v7/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/local/bin/gmake -j8 -f &quot;/Users/kingcrum/littlevgl_mac_v7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/local/bin/gmake -j8 -f &quot;/Users/kingcrum/littlevgl_mac_v7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Ui">
+				<Option output="/Users/kingcrum/littlevgl_mac_v7/cmake-build-debug/Ui" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/kingcrum/littlevgl_mac_v7/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/kingcrum/littlevgl_mac_v7/."/>
+					<Add directory="/Users/kingcrum/littlevgl_mac_v7/lv_drivers/display"/>
+					<Add directory="/Users/kingcrum/littlevgl_mac_v7/lv_drivers/indev"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/opt/local/bin/gmake -j8 -f &quot;/Users/kingcrum/littlevgl_mac_v7/cmake-build-debug/Makefile&quot;  VERBOSE=1 Ui"/>
+					<CompileFile command="/opt/local/bin/gmake -j8 -f &quot;/Users/kingcrum/littlevgl_mac_v7/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/local/bin/gmake -j8 -f &quot;/Users/kingcrum/littlevgl_mac_v7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/local/bin/gmake -j8 -f &quot;/Users/kingcrum/littlevgl_mac_v7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Ui/fast">
+				<Option output="/Users/kingcrum/littlevgl_mac_v7/cmake-build-debug/Ui" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/kingcrum/littlevgl_mac_v7/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/kingcrum/littlevgl_mac_v7/."/>
+					<Add directory="/Users/kingcrum/littlevgl_mac_v7/lv_drivers/display"/>
+					<Add directory="/Users/kingcrum/littlevgl_mac_v7/lv_drivers/indev"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/opt/local/bin/gmake -j8 -f &quot;/Users/kingcrum/littlevgl_mac_v7/cmake-build-debug/Makefile&quot;  VERBOSE=1 Ui/fast"/>
+					<CompileFile command="/opt/local/bin/gmake -j8 -f &quot;/Users/kingcrum/littlevgl_mac_v7/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/local/bin/gmake -j8 -f &quot;/Users/kingcrum/littlevgl_mac_v7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/local/bin/gmake -j8 -f &quot;/Users/kingcrum/littlevgl_mac_v7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lv_conf.h">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lv_drivers/display/fbdev.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lv_drivers/display/fbdev.h">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lv_drivers/display/monitor.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lv_drivers/display/monitor.h">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lv_drivers/indev/evdev.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lv_drivers/indev/evdev.h">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lv_drivers/indev/keyboard.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lv_drivers/indev/keyboard.h">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lv_drivers/indev/mouse.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lv_drivers/indev/mouse.h">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lv_drivers/indev/mousewheel.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lv_drivers/indev/mousewheel.h">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lv_drivers/win_drv.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lv_drivers/win_drv.h">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lv_drv_conf.h">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lv_ex_conf.h">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lv_examples/assets/img_cogwheel_alpha16.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lv_examples/assets/img_cogwheel_argb.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lv_examples/assets/img_cogwheel_chroma_keyed.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lv_examples/assets/img_cogwheel_indexed16.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lv_examples/assets/img_cogwheel_rgb.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lv_examples/assets/lv_font_montserrat_12_compr_az.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lv_examples/assets/lv_font_montserrat_16_compr_az.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lv_examples/assets/lv_font_montserrat_28_compr_az.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lv_examples/lv_examples.h">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lv_examples/my_example/test.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lv_examples/src/lv_demo_benchmark/lv_demo_benchmark.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lv_examples/src/lv_demo_benchmark/lv_demo_benchmark.h">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lv_examples/src/lv_demo_keypad_encoder/lv_demo_keypad_encoder.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lv_examples/src/lv_demo_keypad_encoder/lv_demo_keypad_encoder.h">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lv_examples/src/lv_demo_printer/images/lv_demo_printer_icon_bright.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lv_examples/src/lv_demo_printer/images/lv_demo_printer_icon_eco.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lv_examples/src/lv_demo_printer/images/lv_demo_printer_icon_hue.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lv_examples/src/lv_demo_printer/images/lv_demo_printer_icon_pc.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lv_examples/src/lv_demo_printer/images/lv_demo_printer_icon_tel.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lv_examples/src/lv_demo_printer/images/lv_demo_printer_icon_wifi.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lv_examples/src/lv_demo_printer/images/lv_demo_printer_img_cloud.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lv_examples/src/lv_demo_printer/images/lv_demo_printer_img_copy.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lv_examples/src/lv_demo_printer/images/lv_demo_printer_img_internet.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lv_examples/src/lv_demo_printer/images/lv_demo_printer_img_mobile.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lv_examples/src/lv_demo_printer/images/lv_demo_printer_img_no_internet.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lv_examples/src/lv_demo_printer/images/lv_demo_printer_img_phone.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lv_examples/src/lv_demo_printer/images/lv_demo_printer_img_print.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lv_examples/src/lv_demo_printer/images/lv_demo_printer_img_printer2.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lv_examples/src/lv_demo_printer/images/lv_demo_printer_img_ready.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lv_examples/src/lv_demo_printer/images/lv_demo_printer_img_scan.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lv_examples/src/lv_demo_printer/images/lv_demo_printer_img_scan_example.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lv_examples/src/lv_demo_printer/images/lv_demo_printer_img_setup.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lv_examples/src/lv_demo_printer/images/lv_demo_printer_img_usb.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lv_examples/src/lv_demo_printer/images/lv_demo_printer_img_wave.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lv_examples/src/lv_demo_printer/lv_demo_printer.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lv_examples/src/lv_demo_printer/lv_demo_printer.h">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lv_examples/src/lv_demo_printer/lv_demo_printer_home.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lv_examples/src/lv_demo_printer/lv_demo_printer_home.h">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lv_examples/src/lv_demo_printer/lv_demo_printer_print.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lv_examples/src/lv_demo_printer/lv_demo_printer_print.h">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lv_examples/src/lv_demo_printer/lv_demo_printer_scr.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lv_examples/src/lv_demo_printer/lv_demo_printer_scr.h">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lv_examples/src/lv_demo_printer/lv_demo_printer_theme.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lv_examples/src/lv_demo_printer/lv_demo_printer_theme.h">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lv_examples/src/lv_demo_stress/lv_demo_stress.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lv_examples/src/lv_demo_stress/lv_demo_stress.h">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lv_examples/src/lv_demo_widgets/lv_demo_widgets.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lv_examples/src/lv_demo_widgets/lv_demo_widgets.h">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lv_examples/src/lv_ex_get_started/lv_ex_get_started.h">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lv_examples/src/lv_ex_get_started/lv_ex_get_started_1.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lv_examples/src/lv_ex_get_started/lv_ex_get_started_2.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lv_examples/src/lv_ex_get_started/lv_ex_get_started_3.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lv_examples/src/lv_ex_style/lv_ex_style.h">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lv_examples/src/lv_ex_style/lv_ex_style_1.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lv_examples/src/lv_ex_style/lv_ex_style_10.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lv_examples/src/lv_ex_style/lv_ex_style_11.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lv_examples/src/lv_ex_style/lv_ex_style_2.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lv_examples/src/lv_ex_style/lv_ex_style_3.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lv_examples/src/lv_ex_style/lv_ex_style_4.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lv_examples/src/lv_ex_style/lv_ex_style_5.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lv_examples/src/lv_ex_style/lv_ex_style_6.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lv_examples/src/lv_ex_style/lv_ex_style_7.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lv_examples/src/lv_ex_style/lv_ex_style_8.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lv_examples/src/lv_ex_style/lv_ex_style_9.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lv_examples/src/lv_ex_widgets/lv_ex_arc/lv_ex_arc_1.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lv_examples/src/lv_ex_widgets/lv_ex_arc/lv_ex_arc_2.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lv_examples/src/lv_ex_widgets/lv_ex_bar/lv_ex_bar_1.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lv_examples/src/lv_ex_widgets/lv_ex_btn/lv_ex_btn_1.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lv_examples/src/lv_ex_widgets/lv_ex_btn/lv_ex_btn_2.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lv_examples/src/lv_ex_widgets/lv_ex_btnmatrix/lv_ex_btnmatrix_1.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lv_examples/src/lv_ex_widgets/lv_ex_calendar/lv_ex_calendar_1.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lv_examples/src/lv_ex_widgets/lv_ex_canvas/lv_ex_canvas_1.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lv_examples/src/lv_ex_widgets/lv_ex_canvas/lv_ex_canvas_2.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lv_examples/src/lv_ex_widgets/lv_ex_chart/lv_ex_chart_1.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lv_examples/src/lv_ex_widgets/lv_ex_chart/lv_ex_chart_2.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lv_examples/src/lv_ex_widgets/lv_ex_checkbox/lv_ex_checkbox_1.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lv_examples/src/lv_ex_widgets/lv_ex_cont/lv_ex_cont_1.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lv_examples/src/lv_ex_widgets/lv_ex_cpicker/lv_ex_cpicker_1.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lv_examples/src/lv_ex_widgets/lv_ex_cpicker/lv_ex_cpicker_2.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lv_examples/src/lv_ex_widgets/lv_ex_dropdown/lv_ex_dropdown_1.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lv_examples/src/lv_ex_widgets/lv_ex_dropdown/lv_ex_dropdown_2.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lv_examples/src/lv_ex_widgets/lv_ex_gauge/lv_ex_gauge_1.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lv_examples/src/lv_ex_widgets/lv_ex_img/lv_ex_img_1.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lv_examples/src/lv_ex_widgets/lv_ex_img/lv_ex_img_2.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lv_examples/src/lv_ex_widgets/lv_ex_img/lv_ex_img_3.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lv_examples/src/lv_ex_widgets/lv_ex_imgbtn/imgbtn_blue.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lv_examples/src/lv_ex_widgets/lv_ex_imgbtn/imgbtn_green.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lv_examples/src/lv_ex_widgets/lv_ex_imgbtn/lv_ex_imgbtn_1.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lv_examples/src/lv_ex_widgets/lv_ex_keyboard/lv_ex_keyboard_1.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lv_examples/src/lv_ex_widgets/lv_ex_label/lv_ex_label_1.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lv_examples/src/lv_ex_widgets/lv_ex_label/lv_ex_label_2.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lv_examples/src/lv_ex_widgets/lv_ex_label/lv_ex_label_3.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lv_examples/src/lv_ex_widgets/lv_ex_led/lv_ex_led_1.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lv_examples/src/lv_ex_widgets/lv_ex_line/lv_ex_line_1.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lv_examples/src/lv_ex_widgets/lv_ex_linemeter/lv_ex_linemeter_1.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lv_examples/src/lv_ex_widgets/lv_ex_list/lv_ex_list_1.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lv_examples/src/lv_ex_widgets/lv_ex_msgbox/lv_ex_msgbox_1.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lv_examples/src/lv_ex_widgets/lv_ex_msgbox/lv_ex_msgbox_2.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lv_examples/src/lv_ex_widgets/lv_ex_obj/lv_ex_obj_1.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lv_examples/src/lv_ex_widgets/lv_ex_objmask/lv_ex_objmask_1.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lv_examples/src/lv_ex_widgets/lv_ex_objmask/lv_ex_objmask_2.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lv_examples/src/lv_ex_widgets/lv_ex_page/lv_ex_page_1.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lv_examples/src/lv_ex_widgets/lv_ex_roller/lv_ex_roller_1.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lv_examples/src/lv_ex_widgets/lv_ex_slider/lv_ex_slider_1.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lv_examples/src/lv_ex_widgets/lv_ex_slider/lv_ex_slider_2.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lv_examples/src/lv_ex_widgets/lv_ex_spinbox/lv_ex_spinbox_1.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lv_examples/src/lv_ex_widgets/lv_ex_spinner/lv_ex_spinner_1.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lv_examples/src/lv_ex_widgets/lv_ex_switch/lv_ex_switch_1.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lv_examples/src/lv_ex_widgets/lv_ex_table/lv_ex_table_1.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lv_examples/src/lv_ex_widgets/lv_ex_tabview/lv_ex_tabview_1.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lv_examples/src/lv_ex_widgets/lv_ex_templ.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lv_examples/src/lv_ex_widgets/lv_ex_textarea/lv_ex_textarea_1.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lv_examples/src/lv_ex_widgets/lv_ex_textarea/lv_ex_textarea_2.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lv_examples/src/lv_ex_widgets/lv_ex_tileview/lv_ex_tileview_1.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lv_examples/src/lv_ex_widgets/lv_ex_widgets.h">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lv_examples/src/lv_ex_widgets/lv_ex_win/lv_ex_win_1.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/lvgl.h">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_api_map.h">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_conf_internal.h">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_core/lv_debug.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_core/lv_debug.h">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_core/lv_disp.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_core/lv_disp.h">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_core/lv_group.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_core/lv_group.h">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_core/lv_indev.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_core/lv_indev.h">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_core/lv_obj.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_core/lv_obj.h">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_core/lv_obj_style_dec.h">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_core/lv_refr.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_core/lv_refr.h">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_core/lv_style.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_core/lv_style.h">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_draw/lv_draw.h">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_draw/lv_draw_arc.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_draw/lv_draw_arc.h">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_draw/lv_draw_blend.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_draw/lv_draw_blend.h">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_draw/lv_draw_img.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_draw/lv_draw_img.h">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_draw/lv_draw_label.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_draw/lv_draw_label.h">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_draw/lv_draw_line.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_draw/lv_draw_line.h">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_draw/lv_draw_mask.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_draw/lv_draw_mask.h">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_draw/lv_draw_rect.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_draw/lv_draw_rect.h">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_draw/lv_draw_triangle.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_draw/lv_draw_triangle.h">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_draw/lv_img_buf.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_draw/lv_img_buf.h">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_draw/lv_img_cache.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_draw/lv_img_cache.h">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_draw/lv_img_decoder.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_draw/lv_img_decoder.h">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_font/lv_font.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_font/lv_font.h">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_font/lv_font_dejavu_16_persian_hebrew.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_font/lv_font_fmt_txt.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_font/lv_font_fmt_txt.h">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_font/lv_font_montserrat_12.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_font/lv_font_montserrat_12_subpx.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_font/lv_font_montserrat_14.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_font/lv_font_montserrat_16.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_font/lv_font_montserrat_18.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_font/lv_font_montserrat_20.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_font/lv_font_montserrat_22.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_font/lv_font_montserrat_24.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_font/lv_font_montserrat_26.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_font/lv_font_montserrat_28.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_font/lv_font_montserrat_28_compressed.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_font/lv_font_montserrat_30.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_font/lv_font_montserrat_32.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_font/lv_font_montserrat_34.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_font/lv_font_montserrat_36.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_font/lv_font_montserrat_38.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_font/lv_font_montserrat_40.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_font/lv_font_montserrat_42.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_font/lv_font_montserrat_44.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_font/lv_font_montserrat_46.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_font/lv_font_montserrat_48.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_font/lv_font_simsun_16_cjk.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_font/lv_font_unscii_8.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_font/lv_symbol_def.h">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_gpu/lv_gpu_stm32_dma2d.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_gpu/lv_gpu_stm32_dma2d.h">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_hal/lv_hal.h">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_hal/lv_hal_disp.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_hal/lv_hal_disp.h">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_hal/lv_hal_indev.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_hal/lv_hal_indev.h">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_hal/lv_hal_tick.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_hal/lv_hal_tick.h">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_misc/lv_anim.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_misc/lv_anim.h">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_misc/lv_area.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_misc/lv_area.h">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_misc/lv_async.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_misc/lv_async.h">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_misc/lv_bidi.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_misc/lv_bidi.h">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_misc/lv_color.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_misc/lv_color.h">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_misc/lv_fs.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_misc/lv_fs.h">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_misc/lv_gc.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_misc/lv_gc.h">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_misc/lv_ll.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_misc/lv_ll.h">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_misc/lv_log.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_misc/lv_log.h">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_misc/lv_math.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_misc/lv_math.h">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_misc/lv_mem.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_misc/lv_mem.h">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_misc/lv_printf.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_misc/lv_printf.h">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_misc/lv_task.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_misc/lv_task.h">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_misc/lv_templ.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_misc/lv_templ.h">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_misc/lv_txt.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_misc/lv_txt.h">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_misc/lv_txt_ap.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_misc/lv_txt_ap.h">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_misc/lv_types.h">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_misc/lv_utils.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_misc/lv_utils.h">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_themes/lv_theme.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_themes/lv_theme.h">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_themes/lv_theme_empty.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_themes/lv_theme_empty.h">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_themes/lv_theme_material.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_themes/lv_theme_material.h">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_themes/lv_theme_mono.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_themes/lv_theme_mono.h">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_themes/lv_theme_template.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_themes/lv_theme_template.h">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_widgets/lv_arc.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_widgets/lv_arc.h">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_widgets/lv_bar.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_widgets/lv_bar.h">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_widgets/lv_btn.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_widgets/lv_btn.h">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_widgets/lv_btnmatrix.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_widgets/lv_btnmatrix.h">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_widgets/lv_calendar.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_widgets/lv_calendar.h">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_widgets/lv_canvas.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_widgets/lv_canvas.h">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_widgets/lv_chart.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_widgets/lv_chart.h">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_widgets/lv_checkbox.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_widgets/lv_checkbox.h">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_widgets/lv_cont.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_widgets/lv_cont.h">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_widgets/lv_cpicker.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_widgets/lv_cpicker.h">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_widgets/lv_dropdown.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_widgets/lv_dropdown.h">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_widgets/lv_gauge.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_widgets/lv_gauge.h">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_widgets/lv_img.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_widgets/lv_img.h">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_widgets/lv_imgbtn.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_widgets/lv_imgbtn.h">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_widgets/lv_keyboard.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_widgets/lv_keyboard.h">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_widgets/lv_label.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_widgets/lv_label.h">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_widgets/lv_led.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_widgets/lv_led.h">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_widgets/lv_line.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_widgets/lv_line.h">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_widgets/lv_linemeter.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_widgets/lv_linemeter.h">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_widgets/lv_list.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_widgets/lv_list.h">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_widgets/lv_msgbox.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_widgets/lv_msgbox.h">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_widgets/lv_objmask.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_widgets/lv_objmask.h">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_widgets/lv_objx_templ.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_widgets/lv_objx_templ.h">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_widgets/lv_page.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_widgets/lv_page.h">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_widgets/lv_roller.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_widgets/lv_roller.h">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_widgets/lv_slider.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_widgets/lv_slider.h">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_widgets/lv_spinbox.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_widgets/lv_spinbox.h">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_widgets/lv_spinner.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_widgets/lv_spinner.h">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_widgets/lv_switch.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_widgets/lv_switch.h">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_widgets/lv_table.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_widgets/lv_table.h">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_widgets/lv_tabview.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_widgets/lv_tabview.h">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_widgets/lv_textarea.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_widgets/lv_textarea.h">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_widgets/lv_tileview.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_widgets/lv_tileview.h">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_widgets/lv_win.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/lvgl/src/lv_widgets/lv_win.h">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/main.c">
+			<Option target="Ui"/>
+		</Unit>
+		<Unit filename="/Users/kingcrum/littlevgl_mac_v7/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
